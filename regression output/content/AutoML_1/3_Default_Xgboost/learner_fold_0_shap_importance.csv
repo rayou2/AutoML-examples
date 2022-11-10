@@ -1,0 +1,12 @@
+feature,shap_importance
+TAP College Code,0.9030973
+Federal School Code,0.005639449
+TAP Sector Group,0.0047653667
+Sector Type,0.0010988379
+TAP College Name,0.00067252666
+Level,9.517685e-05
+TAP Recipient Dollars,8.218702e-05
+TAP Recipient Headcount,7.428383e-05
+TAP Recipient FTEs,5.3957916e-05
+TAP Level of Study,3.6022266e-05
+Academic Year,1.31010365e-05

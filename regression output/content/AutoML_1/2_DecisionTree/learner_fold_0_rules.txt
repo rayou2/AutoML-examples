@@ -1,0 +1,16 @@
+if (TAP College Code <= 3958.0) and (TAP College Code <= 1249.5) and (TAP College Code > 577.5) then response: 857.281 | based on 1,794 samples
+
+if (TAP College Code <= 3958.0) and (TAP College Code > 1249.5) and (TAP College Code > 1845.0) then response: 2257.646 | based on 1,467 samples
+
+if (TAP College Code <= 3958.0) and (TAP College Code <= 1249.5) and (TAP College Code <= 577.5) then response: 299.801 | based on 1,447 samples
+
+if (TAP College Code > 3958.0) and (TAP College Code > 6589.0) and (TAP College Code > 7604.5) then response: 8036.34 | based on 949 samples
+
+if (TAP College Code > 3958.0) and (TAP College Code <= 6589.0) and (TAP College Code <= 5650.0) then response: 5323.347 | based on 929 samples
+
+if (TAP College Code <= 3958.0) and (TAP College Code > 1249.5) and (TAP College Code <= 1845.0) then response: 1458.117 | based on 803 samples
+
+if (TAP College Code > 3958.0) and (TAP College Code <= 6589.0) and (TAP College Code > 5650.0) then response: 5970.049 | based on 595 samples
+
+if (TAP College Code > 3958.0) and (TAP College Code > 6589.0) and (TAP College Code <= 7604.5) then response: 7145.786 | based on 360 samples
+

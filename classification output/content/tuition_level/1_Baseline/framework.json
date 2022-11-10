@@ -1,0 +1,102 @@
+{
+    "uid": "ad610f40-0fb1-4f8e-8b40-6015ac3a9e27",
+    "name": "1_Baseline",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "tuition_los"
+            ],
+            "categorical_y": {
+                "2 yr Undergrad": 0,
+                "4 yr Undergrad": 1,
+                "5 yr Undergrad": 2,
+                "Grad": 3,
+                "STAP": 4,
+                "Unknown": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "tuition_los": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.2",
+            "algorithm_name": "Baseline Classifier",
+            "algorithm_short_name": "Baseline",
+            "uid": "85b9fdcb-063a-4569-9390-8d3053673671",
+            "params": {
+                "model_type": "Baseline",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "num_class": 6,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "tuition_los": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "tuition_level/X.data",
+            "y_path": "tuition_level/y.data",
+            "results_path": "tuition_level"
+        },
+        "learner": {
+            "model_type": "Baseline",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "num_class": 6,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 2,
+        "name": "1_Baseline",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "1_Baseline/learner_fold_0.baseline"
+    ],
+    "predictions_fname": "1_Baseline/predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 1.3589529197618615,
+    "train_time": 0.6309022903442383,
+    "is_stacked": false
+}

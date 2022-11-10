@@ -1,0 +1,16 @@
+if (TAP Recipient Dollars <= 444314.375) and (TAP College Code <= 4987.5) and (TAP Sector Group <= 4.5) then class: 5 yr Undergrad (proba: 59.08%) | based on 1,877 samples
+
+if (TAP Recipient Dollars > 444314.375) and (TAP College Code > 1249.5) and (TAP Sector Group > 0.5) then class: 2 yr Undergrad (proba: 72.19%) | based on 1,255 samples
+
+if (TAP Recipient Dollars > 444314.375) and (TAP College Code <= 1249.5) and (Federal School Code <= 8294.0) then class: 4 yr Undergrad (proba: 98.55%) | based on 1,037 samples
+
+if (TAP Recipient Dollars <= 444314.375) and (TAP College Code > 4987.5) and (TAP College Code <= 5985.0) then class: Grad (proba: 100.0%) | based on 836 samples
+
+if (TAP Recipient Dollars <= 444314.375) and (TAP College Code > 4987.5) and (TAP College Code > 5985.0) then class: 4 yr Undergrad (proba: 47.03%) | based on 708 samples
+
+if (TAP Recipient Dollars <= 444314.375) and (TAP College Code <= 4987.5) and (TAP Sector Group > 4.5) then class: 2 yr Undergrad (proba: 90.17%) | based on 295 samples
+
+if (TAP Recipient Dollars > 444314.375) and (TAP College Code > 1249.5) and (TAP Sector Group <= 0.5) then class: 4 yr Undergrad (proba: 71.27%) | based on 181 samples
+
+if (TAP Recipient Dollars > 444314.375) and (TAP College Code <= 1249.5) and (Federal School Code > 8294.0) then class: 4 yr Undergrad (proba: 64.63%) | based on 82 samples
+

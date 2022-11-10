@@ -1,0 +1,64 @@
+{
+    "columns": [
+        "Academic Year",
+        "TAP College Code",
+        "Federal School Code",
+        "Level",
+        "TAP Level of Study",
+        "TAP College Name",
+        "Sector Type",
+        "TAP Sector Group",
+        "TAP Recipient Headcount",
+        "TAP Recipient FTEs",
+        "TAP Recipient Dollars"
+    ],
+    "rows": 11126,
+    "cols": 11,
+    "target_is_numeric": true,
+    "columns_info": {
+        "Academic Year": [
+            "scale"
+        ],
+        "TAP College Code": [
+            "scale"
+        ],
+        "Federal School Code": [
+            "scale"
+        ],
+        "Level": [
+            "categorical",
+            "few_categories"
+        ],
+        "TAP Level of Study": [
+            "categorical",
+            "few_categories"
+        ],
+        "TAP College Name": [
+            "categorical",
+            "many_categories"
+        ],
+        "Sector Type": [
+            "categorical",
+            "few_categories"
+        ],
+        "TAP Sector Group": [
+            "categorical",
+            "few_categories"
+        ],
+        "TAP Recipient Headcount": [
+            "scale"
+        ],
+        "TAP Recipient FTEs": [
+            "missing_values",
+            "scale"
+        ],
+        "TAP Recipient Dollars": [
+            "scale"
+        ]
+    },
+    "target_info": [
+        "scale"
+    ],
+    "n_features": 11,
+    "is_sample_weighted": false
+}
